@@ -1,2 +1,6 @@
 # ansoncloud8.github.io
 AM-CLUB
+
+Telegram交流群：<a href="https://t.me/AM_CLUBS">AM_CLUB</a><br/> 
+YouTube频道：<a href="https://youtube.com/@AM_CLUB">AM_CLUB</a><br/> 
+Github频道：<a href="https://github.com/ansoncloud8/am-tunnel">AM_CLUB</a><br/> 

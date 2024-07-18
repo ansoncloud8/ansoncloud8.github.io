@@ -1,0 +1,233 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问 | AM科技</title><noscript>开启JavaScript才能访问本站哦~</noscript><link rel="icon" href="/img/favicon.ico"><!-- index.css--><link rel="stylesheet" href="/css/index.css?v=1.13.3"><!-- inject head--><link rel="canonical" href="https://am.809098.xyz/2024/07/16/serv00-alist/"><link rel="stylesheet" href="https://cdn2.codesign.qq.com/icons/7pOrz0WXB5ZWJPX/latest/iconfont.css"><!-- aplayer--><!-- swiper--><!-- fancybox ui--><!-- katex--><!-- Open Graph--><meta name="description" content="（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问"><!-- pwa--><meta name="apple-mobile-web-app-capable" content="AM科技"><meta name="theme-color" content="var(--efu-main)"><meta name="apple-mobile-web-app-status-bar-style" content="var(--efu-main)"><link rel="bookmark" href="/img/favicon.ico"><link rel="apple-touch-icon" href="/img/favicon.ico" sizes="180x180"><script>console.log(' %c Solitude %c ' + '1.13.3' + ' %c https://github.com/everfu/hexo-theme-solitude',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+    'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+</script><script>(()=>{
+        const saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+    
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+    
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        };
+        window.utils = {
+            saveToLocal: saveToLocal,
+            getCSS: (url, id = false) => new Promise((resolve, reject) => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = url
+              if (id) link.id = id
+              link.onerror = reject
+              link.onload = link.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                link.onload = link.onreadystatechange = null
+                resolve()
+              }
+              document.head.appendChild(link)
+            }),
+            getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+              const script = document.createElement('script')
+              script.src = url
+              script.async = true
+              script.onerror = reject
+              script.onload = script.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                script.onload = script.onreadystatechange = null
+                resolve()
+              }
+    
+              Object.keys(attr).forEach(key => {
+                script.setAttribute(key, attr[key])
+              })
+    
+              document.head.appendChild(script)
+            }),
+            addGlobalFn: (key, fn, name = false, parent = window) => {
+                const globalFn = parent.globalFn || {}
+                const keyObj = globalFn[key] || {}
+        
+                if (name && keyObj[name]) return
+        
+                name = name || Object.keys(keyObj).length
+                keyObj[name] = fn
+                globalFn[key] = keyObj
+                parent.globalFn = globalFn
+            },
+        }
+    })()</script><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/',
+    algolia: undefined,
+    localsearch: undefined,
+    runtime: '2023-04-20 00:00:00',
+    lazyload: {
+        enable: false,
+        error: '/img/error_load.avif'
+    },
+    copyright: {"limit":50,"author":"作者: AM科技","link":"链接: ","source":"来源: AM科技","info":"著作权归作者所有。 商业转载请联系作者获得授权，非商业转载请注明出处。"},
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"highlight.js"},
+    randomlink: false,
+    lang: {"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"day":"天前","hour":"小时前","just":"刚刚","min":"分钟前","month":"个月前"},"day":" 天","f12":"开发者模式已打开，请遵循GPL协议。","totalk":"无需删除空行，直接输入评论即可"},
+    aside: {
+        sayhello: {
+            morning: '一日之计在于晨',
+            noon: '吃饱了才有力气干活',
+            afternoon: '集中精力，攻克难关',
+            night: '不要太劳累了，早睡更健康',
+            goodnight: '睡个好觉，保证精力充沛',
+        },
+        sayhello2: [],
+        sayhello3: {
+            prefix: '好久不见，',
+            back: '欢迎再次回来，',
+        },
+    },
+    covercolor: {
+        enable: false
+    },
+    comment: false,
+    lightbox: 'null',
+    post_ai: false,
+    right_menu: false,
+    lure: false,
+    expire: false,
+};</script><!-- page-config head--><script id="config-diff">var PAGE_CONFIG = {
+    is_post: true,
+    is_page: false,
+    is_home: false,
+    page: '',
+    toc: true,
+    comment: false,
+    ai_text: false
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body id="body"><!-- universe--><canvas id="universe"></canvas><!-- background img--><!-- loading--><!-- console--><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">18</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">16</div></a></div></div></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><span class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()"><i class="solitude st-moon-clear-fill"></i><span>显示模式</span></span></div><span class="sidebar-menu-item-title">标签</span><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"><a href="/tags/AM%E7%A7%91%E6%8A%80/">AM科技<sup>5</sup></a><a href="/tags/%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB/">技术分享<sup>5</sup></a><a href="/tags/%E6%BB%A1%E6%BB%A1%E5%B9%B2%E8%B4%A7/">满满干货<sup>5</sup></a><a href="/tags/VPN/">VPN<sup>8</sup></a><a href="/tags/%E6%9C%BA%E5%9C%BA/">机场<sup>1</sup></a><a href="/tags/v2rayN/">v2rayN<sup>8</sup></a><a href="/tags/clash/">clash<sup>13</sup></a><a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">科学上网<sup>13</sup></a><a href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/">免费节点<sup>13</sup></a><a href="/tags/cloudflare/">cloudflare<sup>13</sup></a><a href="/tags/CF/">CF<sup>13</sup></a><a href="/tags/serv00/">serv00<sup>4</sup></a><a href="/tags/vless/">vless<sup>5</sup></a><a href="/tags/%E5%9F%9F%E5%90%8D/">域名<sup>1</sup></a><a href="/tags/infinityfree/">infinityfree<sup>1</sup></a><a href="/tags/wordpress/">wordpress<sup>1</sup></a></div></div></div></div><!-- keyboard--><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><a id="site-name" href="/" title="返回博客主页"><span class="title">AM科技</span></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问</a></div></div><div id="menus"></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="nav-totop" onclick="sco.toTop()"><a class="totopbtn"><i class="solitude st-arrow-up-line"></i><span id="percent">0</span></a></div><div id="toggle-menu"><a class="site-page"><i class="solitude st-menu-line"></i></a></div></div></div></nav><div class="coverdiv" id="coverdiv"><img class="nolazyload" id="post-cover" src="/img/serv00-alist.jpg" alt="（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问"></div><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original" title="该文章为原创文章，注意版权协议">原创</a><span class="post-meta-categories"><a class="post-meta-categories" href="/categories/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8/">免费服务器</a></span><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/VPN/"><span class="tags-name tags-punctuation">VPN</span></a><a class="post-meta__tags" href="/tags/clash/"><span class="tags-name tags-punctuation">clash</span></a><a class="post-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"><span class="tags-name tags-punctuation">科学上网</span></a><a class="post-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/"><span class="tags-name tags-punctuation">免费节点</span></a><a class="post-meta__tags" href="/tags/cloudflare/"><span class="tags-name tags-punctuation">cloudflare</span></a><a class="post-meta__tags" href="/tags/CF/"><span class="tags-name tags-punctuation">CF</span></a><a class="post-meta__tags" href="/tags/serv00/"><span class="tags-name tags-punctuation">serv00</span></a><a class="post-meta__tags" href="/tags/vless/"><span class="tags-name tags-punctuation">vless</span></a></div></div></div></div><h1 class="post-title">（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问</h1><div id="post-meta"><div class="meta-secondline"></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><center>（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问</center>
+
+<center><div class="video-container"><iframe src="https://www.youtube.com/embed/h6fc_DKArrU" frameborder="0" loading="lazy" allowfullscreen></iframe></div></center>
+<center>点击上面视频进入视频教程</center>
+
+<p>YouTube频道：<a target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB">https://youtube.com/@AM_CLUB</a><br>Telegram频道：<a target="_blank" rel="noopener" href="https://t.me/AM_CLUBS">https://t.me/AM_CLUBS</a><br>GitHub频道：<a target="_blank" rel="noopener" href="https://github.com/ansoncloud8">https://github.com/ansoncloud8</a></p>
+<center>《部署教程说明》</center>
+
+<p>1、注册serv00帐号</p>
+<center>注册帐号请查看下面视频</center>
+<center><div class="video-container"><iframe src="https://www.youtube.com/embed/NET1FTlfDTs" frameborder="0" loading="lazy" allowfullscreen></iframe></div></center>
+
+<p>2、加下群发送<ssh>获取连接工具<br>Telegram频道：<a target="_blank" rel="noopener" href="https://t.me/AM_CLUBS">https://t.me/AM_CLUBS</a></p>
+<p>3、开放serv00权限</p>
+<p>4、开放serv00部署alist运行端口</p>
+<p>5、创建alist连接数据库</p>
+<p>6、绑定域名（下面视频注册免费域名）</p>
+<center><div class="video-container"><iframe src="https://www.youtube.com/embed/Nl0BV2ocYb8" frameborder="0" loading="lazy" allowfullscreen></iframe></div></center>
+
+<p>7、部署alist<br>下载项目：<a target="_blank" rel="noopener" href="https://github.com/ansoncloud8/am-alist-freebsd">https://github.com/ansoncloud8/am-alist-freebsd</a><br>服务器命令下载：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -O https://github.com/ansoncloud8/am-alist-freebsd/releases/download/v3.34.0/alist</span><br></pre></td></tr></table></figure>
+<p>下载完给文件权限：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x alist</span><br></pre></td></tr></table></figure>
+<p>运行命令安装</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./alist server</span><br></pre></td></tr></table></figure>
+<p>修改json文件</p>
+<p>后台运行命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen ./alist server</span><br></pre></td></tr></table></figure>
+
+<p>重置密码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./alist admin set 新密码</span><br></pre></td></tr></table></figure>
+
+<p>8、成功访问alist<br>你绑定的域名</p>
+<p>————<br>[自用机场推荐]<br>👑69云机场，中转高速机场！注册地址：<a target="_blank" rel="noopener" href="https://am.69yun69.com/">https://am.69yun69.com</a><br>✅看片秒加载，全流媒体解锁，Chatgpt解锁web+app！<br>🎁不限时套餐，永久有效，让您的流量永不过期。<br>🎁签到，每日免费流量<br>✅双千兆节点，一秒下载不卡顿！<br>9.9元 400G &#x2F;月<br>16.90元 800G &#x2F;月<br>26.90元-1600G&#x2F;月<br>29.90元-2000G&#x2F;月<br>————<br>[机场推荐(红杏加速器)]<br>购买主官网：<a target="_blank" rel="noopener" href="https://hongxingdl.com/web/#/login?code=mn5Tuipf">https://hongxingdl.com/web/#/login?code=mn5Tuipf</a><br>优惠码：SVIP88<br>注意：立即享受5折折扣！本优惠码有效期截至到7月26号，请尽快使用。<br>10.9元222G包月「火爆」<br>19.9元555G包月<br>59.9元888G包月<br>其它套餐请注册帐号里面查看和购买<br>-————<br>[专线机场推荐]<br>云狐VPN！官网地址：<a target="_blank" rel="noopener" href="https://yunfox.cc/?code=KPO6IFwh">https://yunfox.cc/?code=KPO6IFwh</a><br>✔亲测好用，速度拉满<br>🌍适用苹果、ipad、Android、Windows和Mac，有对应教程供用户使用。无视晚高峰，高清流畅体验Netflix、Disney+等，可配置中转静态住宅IP，还有Chat GPT专线，其他海外社交流媒体全解锁。<br>————</p>
+<center>点击下面视频进入上期视频教程</center>
+<center><div class="video-container"><iframe src="https://www.youtube.com/embed/JDAQYD6bvEM" frameborder="0" loading="lazy" allowfullscreen></iframe></div></center>
+
+</article><div class="post-copyright"><div class="post-copyright__author_group"><a class="post-copyright__author_img" href="/about/"><img class="post-copyright__author_img_front" src="/img/pwa/avatar.avif"></a><div class="post-copyright__author_name">AM科技</div><div class="post-copyright__author_desc">技术分享-满满干货</div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div><div class="post-reward"><div class="reward-button" title="赞赏作者" onclick="AddRewardMask()"><i class="solitude st-hand-heart-fill"></i>赞赏作者</div><div class="reward-main"><ul class="reward-all"><span class="reward-title">感谢您的赞赏。</span><ul class="reward-group"></ul><a class="reward-main-btn" href="/about"><div class="reward-text">赞赏名单</div><div class="reward-dec">因为有你们的支持，我才体会到写文章的价值。</div></a></ul></div></div><script>function RemoveRewardMask() {
+    let rewardMainElements = document.querySelectorAll(".reward-main");
+    let quitBoxElement = document.querySelector("#quit-box");
+
+    rewardMainElements.forEach(element => {
+        element.style.display = "none";
+    });
+
+    if (quitBoxElement) {
+        quitBoxElement.style.display = "none";
+    }
+}
+
+function AddRewardMask() {
+    let rewardMainElements = document.querySelectorAll(".reward-main");
+    let quitBoxElement = document.querySelector("#quit-box");
+
+    rewardMainElements.forEach(element => {
+        element.style.display = "flex";
+    });
+
+    if (quitBoxElement) {
+        quitBoxElement.style.display = "flex";
+    }
+}</script></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本文是原创文章，采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>协议，完整转载请注明来自<a href="/">AM科技</a></span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/VPN/"><span class="tags-punctuation"></span>VPN<span class="tagsPageCount">8</span></a><a class="post-meta__tags" href="/tags/clash/"><span class="tags-punctuation"></span>clash<span class="tagsPageCount">13</span></a><a class="post-meta__tags" href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"><span class="tags-punctuation"></span>科学上网<span class="tagsPageCount">13</span></a><a class="post-meta__tags" href="/tags/%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/"><span class="tags-punctuation"></span>免费节点<span class="tagsPageCount">13</span></a><a class="post-meta__tags" href="/tags/cloudflare/"><span class="tags-punctuation"></span>cloudflare<span class="tagsPageCount">13</span></a><a class="post-meta__tags" href="/tags/CF/"><span class="tags-punctuation"></span>CF<span class="tagsPageCount">13</span></a><a class="post-meta__tags" href="/tags/serv00/"><span class="tags-punctuation"></span>serv00<span class="tagsPageCount">4</span></a><a class="post-meta__tags" href="/tags/vless/"><span class="tags-punctuation"></span>vless<span class="tagsPageCount">5</span></a></div></div></div><nav class="needEndHide pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/07/16/am-nodejs-proxy-serv00/"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">小白教程,一个命令完成免费serv00云服务器部署VPN,生成cloudflare遂道节点、vless等节点实现科学上网,防失联</div></div></a></div><div class="next-post pull-right"><a href="/2024/07/16/serv00/"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">全网最新VPS云服务器serv00免费申请白嫖,可以搭建免费节点科学上网、个人网站、数据库等,大家快去申请</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-bg-top"><div class="is-center"><div class="author-info__top-group"><div class="author-info__sayhi" id="author-info__sayhi" onclick="sco.changeSayHelloText()">sayhello.morning</div></div></div></div><a class="card-info-avatar" href="/about/" title="头像"><div class="avatar-img"><img src="/img/pwa/avatar.avif" alt="头像"></div><div class="avatar-sticker"><img class="avatar-sticker-img" src="https://7.isyangs.cn/34/65f2e4e0423cc-34.png" alt="心情贴纸"></div></a><div class="card-info__desc_group"><div class="author-info__name">AM科技</div><div class="author-info__desc">技术分享-满满干货</div><div class="card-info__data is-center"><a href="/archives/" title="累计文章数:18"><div class="length-num">18</div><div class="headline">文章</div></a><a href="/tags/" title="标签总数:16"><div class="length-num">16</div><div class="headline">标签</div></a><a href="/categories/" title="分类总数:5"><div class="length-num">5</div><div class="headline">分类</div></a></div><div class="card-info-social-icons is-center"></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="solitude st-menu-line"></i><span>文章目录</span></div><div class="toc-content" id="toc-content"></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="solitude st-map-line"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/07/18/am-trojan-up/" title="(trojan协议)cloudflare教程0成本部署永久免费节点4K访问youtube,解锁chatgpt、netflix、tiktok等网站(page部署方式)"><img alt="(trojan协议)cloudflare教程0成本部署永久免费节点4K访问youtube,解锁chatgpt、netflix、tiktok等网站(page部署方式)" src="/img/am-trojan-up.jpg"></a><div class="content"><a class="title" href="/2024/07/18/am-trojan-up/" title="(trojan协议)cloudflare教程0成本部署永久免费节点4K访问youtube,解锁chatgpt、netflix、tiktok等网站(page部署方式)">(trojan协议)cloudflare教程0成本部署永久免费节点4K访问youtube,解锁chatgpt、netflix、tiktok等网站(page部署方式)</a><a class="article-recent_post_categories" href="/2024/07/18/am-trojan-up/">免费CF节点</a></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/07/16/am-nodejs-proxy-serv00/" title="小白教程,一个命令完成免费serv00云服务器部署VPN,生成cloudflare遂道节点、vless等节点实现科学上网,防失联"><img alt="小白教程,一个命令完成免费serv00云服务器部署VPN,生成cloudflare遂道节点、vless等节点实现科学上网,防失联" src="/img/am-nodejs-proxy.jpg"></a><div class="content"><a class="title" href="/2024/07/16/am-nodejs-proxy-serv00/" title="小白教程,一个命令完成免费serv00云服务器部署VPN,生成cloudflare遂道节点、vless等节点实现科学上网,防失联">小白教程,一个命令完成免费serv00云服务器部署VPN,生成cloudflare遂道节点、vless等节点实现科学上网,防失联</a><a class="article-recent_post_categories" href="/2024/07/16/am-nodejs-proxy-serv00/">免费服务器</a></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/07/16/serv00-alist/" title="（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问"><img alt="（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问" src="/img/serv00-alist.jpg"></a><div class="content"><a class="title" href="/2024/07/16/serv00-alist/" title="（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问">（最新教程）免费serv00云服务部署个人Alist网盘,实现多网盘访问</a><a class="article-recent_post_categories" href="/2024/07/16/serv00-alist/">免费服务器</a></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/07/16/serv00/" title="全网最新VPS云服务器serv00免费申请白嫖,可以搭建免费节点科学上网、个人网站、数据库等,大家快去申请"><img alt="全网最新VPS云服务器serv00免费申请白嫖,可以搭建免费节点科学上网、个人网站、数据库等,大家快去申请" src="/img/serv00.jpg"></a><div class="content"><a class="title" href="/2024/07/16/serv00/" title="全网最新VPS云服务器serv00免费申请白嫖,可以搭建免费节点科学上网、个人网站、数据库等,大家快去申请">全网最新VPS云服务器serv00免费申请白嫖,可以搭建免费节点科学上网、个人网站、数据库等,大家快去申请</a><a class="article-recent_post_categories" href="/2024/07/16/serv00/">免费服务器</a></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/07/16/serv00-wordpress/" title="免费serv00云服务器 部署个人网站和博客,wordpress"><img alt="免费serv00云服务器 部署个人网站和博客,wordpress" src="/img/serv00-wordpress.jpg"></a><div class="content"><a class="title" href="/2024/07/16/serv00-wordpress/" title="免费serv00云服务器 部署个人网站和博客,wordpress">免费serv00云服务器 部署个人网站和博客,wordpress</a><a class="article-recent_post_categories" href="/2024/07/16/serv00-wordpress/">免费服务器</a></div></div></div></div></div></div></main><footer id="footer"><div id="st-footer-bar"><div class="footer-logo"><span>AM科技</span></div><div class="footer-bar-description">来自 AM科技 的文章</div><a class="footer-bar-link" href="/about/">了解更多</a></div><div id="footer_deal"></div><div id="st-footer"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div class="copyright">© 2023 - 2024 By&nbsp;<a class="footer-bar-link" href="/">AM科技</a></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/ansoncloud8" alt="Github">Github</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://youtube.com/@AM_CLUB" alt="YouTube">YouTube</a><a class="footer-bar-link" target="_blank" rel="noopener" href="https://t.me/AM_CLUBS" alt="电报群">电报群</a><a class="footer-bar-link cc" href="/null" aria-label="copyright"><i class="solitude st-copyright-line"></i><i class="solitude st-creative-commons-by-line"></i><i class="solitude st-creative-commons-nc-line"></i><i class="solitude st-creative-commons-nd-line"></i></a></div></div></div></footer></div><!-- right_menu--><!-- inject body--><div><script src="/js/utils.js?v=1.13.3"></script><script src="/js/main.js?v=1.13.3"></script><script src="/js/third_party/waterfall.min.js?v=1.13.3"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script src="/js/third_party/universe.min.js?v=1.13.3"></script><script>dark()
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js"></script><div class="js-pjax"></div></div><!-- pjax--><script>const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: ['title','#body-wrap','#site-config','meta[name="description"]','.js-pjax','meta[property^="og:"]','#config-diff'],
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:complete', () => {
+    window.refreshFn()
+
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+        const newScript = document.createElement('script')
+        const content = item.text || item.textContent || item.innerHTML || ""
+        Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+        newScript.appendChild(document.createTextNode(content))
+        item.parentNode.replaceChild(newScript, item)
+    })
+
+    GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- theme--><script>initTheme = () => {
+    let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const cachedMode = utils.saveToLocal.get('theme');
+    if (cachedMode === undefined) {
+        const nowMode =
+            isDarkMode ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', nowMode);
+    } else {
+        document.documentElement.setAttribute('data-theme', cachedMode);
+    }
+    typeof rm === 'object' && rm.mode(cachedMode === 'dark' && isDarkMode)
+}
+initTheme()</script><!-- google adsense--><!-- search--><!-- Tianli-Talk--><!-- music--></body></html><script>const posts=["2024/07/18/am-trojan-up/","2024/07/16/am-nodejs-proxy-serv00/","2024/07/16/serv00-alist/","2024/07/16/serv00/","2024/07/16/serv00-wordpress/","2024/07/16/am-tunnel-up/","2024/07/16/am-tunnel-down/","2024/07/16/infinityfree/","2024/07/14/am-tunnel-down-problem/","2024/07/14/am-tunnel-up-problem/","2024/07/13/am-cf-github-kv/","2024/07/13/am-cf-github/","2024/07/13/am-cf-kv/","2024/06/30/airport-69yun/","2024/06/30/airport-hongxingdl/","2024/06/30/domain-dynv6/","2024/06/30/vpn-warp/","2024/06/15/am/"];function toRandomPost(){ pjax.loadUrl(GLOBAL_CONFIG.root+posts[Math.floor(Math.random()*posts.length)]); }</script>

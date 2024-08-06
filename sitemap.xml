@@ -38,7 +38,16 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/serv00/</loc>
+    <loc>https://am.809098.xyz/vpn-rss-tools/</loc>
+    
+    <lastmod>2024-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/vpn-warp/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -56,16 +65,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/vpn-rss-tools/</loc>
-    
-    <lastmod>2024-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/vpn-warp/</loc>
+    <loc>https://am.809098.xyz/serv00/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -227,15 +227,6 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/am-cf-kv/</loc>
-    
-    <lastmod>2024-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://am.809098.xyz/am-cf-register/</loc>
     
     <lastmod>2024-08-02</lastmod>
@@ -246,6 +237,15 @@
   
   <url>
     <loc>https://am.809098.xyz/am-cf-sub-rss/</loc>
+    
+    <lastmod>2024-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/am-cf-kv/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -537,6 +537,20 @@
   </url>
   
   <url>
+    <loc>https://am.809098.xyz/tags/wireguard/</loc>
+    <lastmod>2024-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9%EF%BC%8C%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
+    <lastmod>2024-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://am.809098.xyz/tags/Vercel/</loc>
     <lastmod>2024-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -676,20 +690,6 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://am.809098.xyz/tags/wireguard/</loc>
-    <lastmod>2024-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9%EF%BC%8C%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
-    <lastmod>2024-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
   
   <url>
@@ -714,6 +714,13 @@
   </url>
   
   <url>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9VPN/</loc>
+    <lastmod>2024-08-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9IPTV/</loc>
     <lastmod>2024-08-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -722,13 +729,6 @@
   
   <url>
     <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2024-08-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9VPN/</loc>
     <lastmod>2024-08-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

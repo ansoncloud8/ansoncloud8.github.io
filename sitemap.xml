@@ -182,7 +182,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/vpn-warp/</loc>
+    <loc>https://am.809098.xyz/serv00-wordpress/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/serv00-wordpress/</loc>
+    <loc>https://am.809098.xyz/vpn-warp/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -236,15 +236,6 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/am-nodejs-proxy-serv00/</loc>
-    
-    <lastmod>2024-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://am.809098.xyz/infinityfree/</loc>
     
     <lastmod>2024-08-02</lastmod>
@@ -254,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/ydns/</loc>
+    <loc>https://am.809098.xyz/am-nodejs-proxy-serv00/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -264,6 +255,15 @@
   
   <url>
     <loc>https://am.809098.xyz/domain-dynv6/</loc>
+    
+    <lastmod>2024-08-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/ydns/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -399,13 +399,6 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/%E6%9C%BA%E5%9C%BA/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://am.809098.xyz/tags/VPN/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -414,13 +407,6 @@
   
   <url>
     <loc>https://am.809098.xyz/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -497,7 +483,28 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/%E4%B8%93%E7%BA%BF/</loc>
+    <loc>https://am.809098.xyz/tags/BPB/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/Panel/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E6%9C%BA%E5%9C%BA/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -532,28 +539,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/BPB/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/Panel/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/wireguard/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9%EF%BC%8C%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://am.809098.xyz/tags/%E4%B8%93%E7%BA%BF/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -602,6 +588,20 @@
   </url>
   
   <url>
+    <loc>https://am.809098.xyz/tags/wireguard/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E8%8A%82%E7%82%B9%EF%BC%8C%E5%85%8D%E8%B4%B9%E8%8A%82%E7%82%B9/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://am.809098.xyz/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -610,13 +610,6 @@
   
   <url>
     <loc>https://am.809098.xyz/tags/serv00/</loc>
-    <lastmod>2024-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/vless/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -686,6 +679,13 @@
   </url>
   
   <url>
+    <loc>https://am.809098.xyz/tags/vless/</loc>
+    <lastmod>2024-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://am.809098.xyz/tags/socks5/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -702,14 +702,14 @@
 
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</loc>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://am.809098.xyz/categories/%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -723,14 +723,14 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9VPN/</loc>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9IPTV/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9IPTV/</loc>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9VPN/</loc>
     <lastmod>2024-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

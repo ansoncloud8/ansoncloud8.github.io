@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://am.809098.xyz/FAQ/</loc>
+    <lastmod>2024-08-13</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/serv00-vmess-cdn/</loc>
     <lastmod>2024-08-13</lastmod>
   </url>
@@ -69,10 +73,6 @@
     <lastmod>2024-08-09</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/FAQ/</loc>
-    <lastmod>2024-08-09</lastmod>
-  </url>
-  <url>
     <loc>https://am.809098.xyz/am-serv00-nezha/</loc>
     <lastmod>2024-08-09</lastmod>
   </url>
@@ -125,11 +125,11 @@
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-cf-sub-rss/</loc>
+    <loc>https://am.809098.xyz/am-cf-register/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-cf-register/</loc>
+    <loc>https://am.809098.xyz/am-cf-sub-rss/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>

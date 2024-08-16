@@ -227,7 +227,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/serv00/</loc>
+    <loc>https://am.809098.xyz/serv00-wordpress/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/serv00-wordpress/</loc>
+    <loc>https://am.809098.xyz/serv00/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/iptv-go/</loc>
+    <loc>https://am.809098.xyz/ydns/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -308,7 +308,7 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/ydns/</loc>
+    <loc>https://am.809098.xyz/iptv-go/</loc>
     
     <lastmod>2024-08-02</lastmod>
     
@@ -533,55 +533,6 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/Vercel/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/YouTube/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/m3u8/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E7%9B%B4%E6%92%AD/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/iptv/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E7%94%B5%E8%A7%86/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://am.809098.xyz/tags/v2rayN/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -638,6 +589,55 @@
   </url>
   
   <url>
+    <loc>https://am.809098.xyz/tags/Vercel/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/YouTube/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/m3u8/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E7%9B%B4%E6%92%AD/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/iptv/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E7%94%B5%E8%A7%86/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/%E7%9B%B4%E6%92%AD%E6%BA%90/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://am.809098.xyz/tags/wireguard/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -681,6 +681,13 @@
   
   <url>
     <loc>https://am.809098.xyz/tags/serv00/</loc>
+    <lastmod>2024-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://am.809098.xyz/tags/vless/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -750,14 +757,14 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/vless/</loc>
+    <loc>https://am.809098.xyz/tags/socks5/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/tags/socks5/</loc>
+    <loc>https://am.809098.xyz/tags/infinityfree/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -772,13 +779,6 @@
   
   <url>
     <loc>https://am.809098.xyz/tags/VMess/</loc>
-    <lastmod>2024-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://am.809098.xyz/tags/infinityfree/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -801,14 +801,14 @@
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9IPTV/</loc>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9CF%E8%8A%82%E7%82%B9/</loc>
+    <loc>https://am.809098.xyz/categories/%E5%85%8D%E8%B4%B9IPTV/</loc>
     <lastmod>2024-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

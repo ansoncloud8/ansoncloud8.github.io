@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://am.809098.xyz/ai-3D/</loc>
+    <lastmod>2024-09-25</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/vpn-warp-new/</loc>
     <lastmod>2024-09-22</lastmod>
   </url>
@@ -25,11 +29,15 @@
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
+    <loc>https://am.809098.xyz/am-tunnel-priority/</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/am-tunnel-up-problem/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-tunnel-priority/</loc>
+    <loc>https://am.809098.xyz/am-tunnel-up/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
@@ -41,10 +49,6 @@
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-tunnel-up/</loc>
-    <lastmod>2024-09-12</lastmod>
-  </url>
-  <url>
     <loc>https://am.809098.xyz/am-cf-sub-rss/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
@@ -53,15 +57,15 @@
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
+    <loc>https://am.809098.xyz/am-tunnel-addressesapi/</loc>
+    <lastmod>2024-09-12</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/am-cf-work-page/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
     <loc>https://am.809098.xyz/am-trojan-up/</loc>
-    <lastmod>2024-09-12</lastmod>
-  </url>
-  <url>
-    <loc>https://am.809098.xyz/am-tunnel-addressesapi/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
@@ -77,11 +81,11 @@
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-cf-register/</loc>
+    <loc>https://am.809098.xyz/am-cf-kv/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/am-cf-kv/</loc>
+    <loc>https://am.809098.xyz/am-cf-register/</loc>
     <lastmod>2024-09-12</lastmod>
   </url>
   <url>
@@ -177,10 +181,6 @@
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/iptv-pixman/</loc>
-    <lastmod>2024-08-02</lastmod>
-  </url>
-  <url>
     <loc>https://am.809098.xyz/am-nodejs-proxy-serv00/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
@@ -189,15 +189,19 @@
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
+    <loc>https://am.809098.xyz/iptv-pixman/</loc>
+    <lastmod>2024-08-02</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/domain-dynv6/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/iptv-go/</loc>
+    <loc>https://am.809098.xyz/ydns/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>
-    <loc>https://am.809098.xyz/ydns/</loc>
+    <loc>https://am.809098.xyz/iptv-go/</loc>
     <lastmod>2024-08-02</lastmod>
   </url>
   <url>

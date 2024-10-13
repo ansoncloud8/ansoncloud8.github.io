@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://am.809098.xyz/am-cf-tunnel/</loc>
+    <lastmod>2024-10-13</lastmod>
+  </url>
+  <url>
+    <loc>https://am.809098.xyz/am-cf-tunnel-cdn/</loc>
+    <lastmod>2024-10-13</lastmod>
+  </url>
+  <url>
     <loc>https://am.809098.xyz/ydns/</loc>
     <lastmod>2024-10-10</lastmod>
   </url>
@@ -162,10 +170,6 @@
   </url>
   <url>
     <loc>https://am.809098.xyz/am-cf-unlock-gpt/</loc>
-    <lastmod>2024-10-06</lastmod>
-  </url>
-  <url>
-    <loc>https://am.809098.xyz/am-cf-tunnel/</loc>
     <lastmod>2024-10-06</lastmod>
   </url>
   <url>
